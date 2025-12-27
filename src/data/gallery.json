@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Healthy Cotton Fields",
+    "category": "farm",
+    "image": "/gallery/cotton-field.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Organic Oil Production",
+    "category": "production",
+    "image": "/gallery/production.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Mango Orchard Results",
+    "category": "results",
+    "image": "/gallery/mango-orchard.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Product Application",
+    "category": "application",
+    "image": "/gallery/spraying.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Rice Paddy Success",
+    "category": "farm",
+    "image": "/gallery/rice-paddy.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Laboratory Testing",
+    "category": "production",
+    "image": "/gallery/lab-testing.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Before Treatment",
+    "category": "results",
+    "image": "/gallery/before-treatment.jpg"
+  },
+  {
+    "id": 8,
+    "title": "After Treatment",
+    "category": "results",
+    "image": "/gallery/after-treatment.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Vegetable Garden",
+    "category": "farm",
+    "image": "/gallery/vegetable-garden.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Farmer Training",
+    "category": "events",
+    "image": "/gallery/farmer-training.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Citrus Grove Protection",
+    "category": "farm",
+    "image": "/gallery/citrus-grove.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Natural Ingredients",
+    "category": "production",
+    "image": "/gallery/ingredients.jpg"
+  }
+]

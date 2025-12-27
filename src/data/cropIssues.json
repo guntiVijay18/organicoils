@@ -1,0 +1,170 @@
+[
+  {
+    "id": "fruit-fall",
+    "name": "Fruit Fall",
+    "icon": "apple",
+    "shortDescription": "Premature dropping of fruits before maturity",
+    "description": "Fruit fall is a major concern for orchard farmers, causing significant yield losses. It occurs due to hormonal imbalances, nutrient deficiencies, pest attacks, or environmental stress.",
+    "symptoms": [
+      "Fruits dropping before reaching full size",
+      "Weak fruit-stem attachment",
+      "Yellowing around fruit base",
+      "Premature color change"
+    ],
+    "causes": [
+      "Hormonal imbalance",
+      "Calcium or boron deficiency",
+      "Water stress",
+      "Pest damage to fruit stalks"
+    ],
+    "affectedCrops": ["Mango", "Citrus", "Apple", "Pomegranate", "Grapes"],
+    "recommendedProducts": ["fruit-protect"],
+    "scientificExplanation": "Organic oils containing natural plant hormones help regulate ethylene production and strengthen the abscission layer between fruit and stem. They also provide essential nutrients that prevent premature fruit drop.",
+    "preventionTips": [
+      "Apply organic oils at flowering stage",
+      "Maintain consistent irrigation",
+      "Ensure balanced nutrition",
+      "Control pest populations"
+    ]
+  },
+  {
+    "id": "leaf-curl",
+    "name": "Leaf Curl",
+    "icon": "leaf",
+    "shortDescription": "Distortion and curling of plant leaves",
+    "description": "Leaf curl causes leaves to twist, cup, or roll, affecting photosynthesis and plant health. It's commonly caused by viral infections, pest infestations, or environmental factors.",
+    "symptoms": [
+      "Leaves rolling upward or downward",
+      "Thickened leaf texture",
+      "Distorted leaf shape",
+      "Reduced leaf size"
+    ],
+    "causes": [
+      "Viral infections (TLCV)",
+      "Aphid or whitefly infestation",
+      "Herbicide damage",
+      "Nutrient imbalance"
+    ],
+    "affectedCrops": ["Chili", "Tomato", "Cotton", "Papaya", "Peach"],
+    "recommendedProducts": ["leaf-care", "neem-supreme"],
+    "scientificExplanation": "Organic oils work by controlling the insect vectors that spread leaf curl viruses. Neem-based oils also have antiviral properties that help infected plants recover while preventing spread to healthy plants.",
+    "preventionTips": [
+      "Control whitefly populations early",
+      "Use virus-resistant varieties",
+      "Remove and destroy infected plants",
+      "Apply preventive organic oil sprays"
+    ]
+  },
+  {
+    "id": "root-damage",
+    "name": "Root Damage",
+    "icon": "tree-deciduous",
+    "shortDescription": "Deterioration of plant root systems",
+    "description": "Healthy roots are essential for nutrient and water uptake. Root damage from pathogens, pests, or poor soil conditions severely impacts plant growth and survival.",
+    "symptoms": [
+      "Wilting despite adequate water",
+      "Yellowing of lower leaves",
+      "Stunted growth",
+      "Brown, mushy roots"
+    ],
+    "causes": [
+      "Fungal pathogens (Pythium, Fusarium)",
+      "Root-feeding pests",
+      "Waterlogging",
+      "Soil compaction"
+    ],
+    "affectedCrops": ["All Vegetables", "Nursery Plants", "Orchards", "Cereals"],
+    "recommendedProducts": ["root-power", "fungal-shield"],
+    "scientificExplanation": "Organic oils with antifungal properties create an unfavorable environment for root pathogens. They also promote beneficial soil microbes that protect roots and enhance nutrient availability.",
+    "preventionTips": [
+      "Improve soil drainage",
+      "Avoid overwatering",
+      "Use organic soil amendments",
+      "Apply root drenches preventively"
+    ]
+  },
+  {
+    "id": "pest-infestation",
+    "name": "Pest Infestation",
+    "icon": "bug",
+    "shortDescription": "Attack by harmful insects and mites",
+    "description": "Pest infestations can devastate crops through direct feeding damage and disease transmission. Early detection and organic control measures are crucial for protection.",
+    "symptoms": [
+      "Visible insects on plants",
+      "Holes in leaves or fruits",
+      "Sticky honeydew deposits",
+      "Distorted new growth"
+    ],
+    "causes": [
+      "Monoculture farming",
+      "Lack of natural predators",
+      "Weather conditions favoring pests",
+      "Resistant pest populations"
+    ],
+    "affectedCrops": ["Cotton", "Rice", "Vegetables", "Fruits", "Pulses"],
+    "recommendedProducts": ["neem-supreme", "pest-terminator"],
+    "scientificExplanation": "Organic oils disrupt pest feeding, reproduction, and development. Neem oil's azadirachtin compound acts as an anti-feedant, growth regulator, and repellent, providing multiple modes of action that prevent resistance.",
+    "preventionTips": [
+      "Regular crop monitoring",
+      "Encourage beneficial insects",
+      "Rotate crops",
+      "Apply oils at first sign of pests"
+    ]
+  },
+  {
+    "id": "fungal-disease",
+    "name": "Fungal Disease",
+    "icon": "cloud-fog",
+    "shortDescription": "Infections caused by fungal pathogens",
+    "description": "Fungal diseases are among the most common crop problems, causing leaf spots, wilts, rots, and mildews. They thrive in humid conditions and spread rapidly.",
+    "symptoms": [
+      "Powdery or fuzzy growth on leaves",
+      "Brown or black spots",
+      "Wilting and yellowing",
+      "Fruit or stem rot"
+    ],
+    "causes": [
+      "High humidity",
+      "Poor air circulation",
+      "Overhead irrigation",
+      "Infected seeds or soil"
+    ],
+    "affectedCrops": ["Grapes", "Tomatoes", "Cucurbits", "Roses", "Cereals"],
+    "recommendedProducts": ["fungal-shield"],
+    "scientificExplanation": "Organic oils form a protective barrier on plant surfaces that prevents fungal spore germination. They also contain natural antifungal compounds that destroy existing infections and boost plant immunity.",
+    "preventionTips": [
+      "Maintain proper plant spacing",
+      "Water at soil level",
+      "Apply fungal shield preventively",
+      "Remove infected plant parts"
+    ]
+  },
+  {
+    "id": "stunted-growth",
+    "name": "Stunted Growth",
+    "icon": "shrub",
+    "shortDescription": "Poor or slow plant development",
+    "description": "Stunted growth results in undersized plants with reduced yields. It can be caused by nutrient deficiencies, root problems, pest damage, or environmental stress.",
+    "symptoms": [
+      "Plants smaller than expected",
+      "Thin, weak stems",
+      "Pale or yellowing leaves",
+      "Poor root development"
+    ],
+    "causes": [
+      "Nutrient deficiency",
+      "Root damage",
+      "Soil compaction",
+      "Water stress"
+    ],
+    "affectedCrops": ["All Crops", "Vegetables", "Cereals", "Ornamentals"],
+    "recommendedProducts": ["growth-booster", "root-power"],
+    "scientificExplanation": "Organic growth oils provide essential fatty acids and natural growth promoters that stimulate cell division and elongation. They also improve nutrient uptake efficiency, helping plants overcome deficiency-related growth issues.",
+    "preventionTips": [
+      "Ensure balanced fertilization",
+      "Maintain healthy soil structure",
+      "Apply growth boosters regularly",
+      "Address root health issues"
+    ]
+  }
+]

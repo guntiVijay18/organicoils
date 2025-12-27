@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Ramesh Kumar",
+    "location": "Punjab, India",
+    "crop": "Cotton Farmer",
+    "image": "/testimonials/farmer-1.jpg",
+    "quote": "After switching to Neem Supreme Oil, my cotton crop pest problems reduced by 80%. The best part is it's completely safe for my workers and the environment.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Lakshmi Devi",
+    "location": "Andhra Pradesh, India",
+    "crop": "Vegetable Grower",
+    "image": "/testimonials/farmer-2.jpg",
+    "quote": "Fungal Shield Plus saved my entire tomato crop from blight. Now I use it preventively and haven't lost a single plant to fungal disease.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Suresh Patil",
+    "location": "Maharashtra, India",
+    "crop": "Mango Orchardist",
+    "image": "/testimonials/farmer-3.jpg",
+    "quote": "Fruit Protect Max reduced my mango fruit drop by more than half. My yield increased significantly and the fruit quality improved too.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Meera Sharma",
+    "location": "Gujarat, India",
+    "crop": "Organic Farm Owner",
+    "image": "/testimonials/farmer-4.jpg",
+    "quote": "These organic oils are the real deal. My farm is now fully certified organic thanks to their product range. Customer trust in my produce has never been higher.",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Arjun Singh",
+    "location": "Uttar Pradesh, India",
+    "crop": "Rice Farmer",
+    "image": "/testimonials/farmer-5.jpg",
+    "quote": "Growth Booster Pro gave my paddy fields incredible vigor. The stems are stronger and my crop survived heavy rains without lodging.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Kavitha Reddy",
+    "location": "Karnataka, India",
+    "crop": "Floriculture Expert",
+    "image": "/testimonials/farmer-6.jpg",
+    "quote": "Flower Bloom Special transformed my rose garden. The blooms are larger, more colorful, and last much longer. My customers are amazed!",
+    "rating": 5
+  }
+]
