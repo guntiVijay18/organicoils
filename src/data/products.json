@@ -1,130 +1,646 @@
 [
   {
-    "id": "neem-supreme",
-    "name": "Neem Supreme Oil",
-    "shortDescription": "Powerful organic pest control for all crops",
-    "description": "Our flagship neem oil extract combines traditional wisdom with modern processing techniques. Effective against 200+ pest species while being completely safe for beneficial insects.",
-    "image": "/products/neem-oil.jpg",
-    "category": "pest-control",
-    "problemsSolved": ["Aphids", "Whiteflies", "Mealybugs", "Spider Mites", "Thrips"],
-    "suitableCrops": ["Rice", "Cotton", "Vegetables", "Fruits", "Maize"],
-    "applicationType": "spray",
-    "dosage": "3-5ml per liter of water",
-    "frequency": "Every 7-10 days",
-    "ingredients": ["Cold-pressed Neem extract", "Natural emulsifiers", "Plant-based surfactants"],
-    "benefits": ["100% Organic", "Non-toxic to humans", "Safe for bees", "Long-lasting protection", "No resistance buildup"],
-    "featured": true
-  },
-  {
-    "id": "fungal-shield",
-    "name": "Fungal Shield Plus",
-    "shortDescription": "Complete fungal disease protection",
-    "description": "A powerful blend of organic oils that creates a protective barrier against fungal infections. Prevents and treats powdery mildew, rust, and leaf spot diseases.",
-    "image": "/products/fungal-shield.jpg",
+    "id": "15",
+    "name": "Mantra Plant Protector",
+    "shortDescription": "Natural protection against pests and diseases",
+    "description": "A natural plant protection solution formulated with organic botanical extracts. It helps protect crops from fungal diseases and plant infections while improving overall plant health and resistance.",
+    "image": "https://drive.google.com/thumbnail?id=1XK7P6P26Ep8vnd99pO5NvVHxBHEIJImW&sz=w800",
     "category": "fungus-control",
-    "problemsSolved": ["Powdery Mildew", "Rust", "Leaf Spot", "Blight", "Downy Mildew"],
-    "suitableCrops": ["Grapes", "Tomatoes", "Cucumbers", "Roses", "Vegetables"],
+    "problemsSolved": [
+      "Powdery Mildew",
+      "Rust",
+      "Leaf Spot",
+      "Blight",
+      "Downy Mildew"
+    ],
+    "suitableCrops": [
+      "Grapes",
+      "Tomatoes",
+      "Cucumbers",
+      "Roses",
+      "Vegetables"
+    ],
     "applicationType": "spray",
-    "dosage": "4ml per liter of water",
-    "frequency": "Every 5-7 days during disease pressure",
-    "ingredients": ["Karanja oil", "Tea tree extract", "Rosemary oil", "Natural antifungals"],
-    "benefits": ["Preventive & curative action", "Systemic protection", "Weather resistant", "Enhances plant immunity"],
-    "featured": true
+    "dosage": "4 ml per liter of water",
+    "frequency": "Every 5–7 days during disease pressure",
+    "ingredients": [
+      "Karanja oil",
+      "Tea tree extract",
+      "Rosemary oil",
+      "Natural antifungal compounds"
+    ],
+    "benefits": [
+      "Preventive and curative action",
+      "Systemic plant protection",
+      "Weather resistant formula",
+      "Enhances plant immunity"
+    ],
+    "featured": false
   },
   {
-    "id": "growth-booster",
-    "name": "Growth Booster Pro",
-    "shortDescription": "Accelerate healthy plant growth naturally",
-    "description": "Stimulates robust vegetative growth and root development. Contains essential fatty acids and natural growth promoters for stronger, healthier plants.",
-    "image": "/products/growth-booster.jpg",
+    "id": "16",
+    "name": "Growell Plant Protector",
+    "shortDescription": "Natural plant growth and protection solution",
+    "description": "Growell Plant Protector is a natural formulation designed to promote healthy plant growth while protecting crops from stress and nutrient deficiencies. It supports strong roots, better vegetative growth, and overall plant vigor.",
+    "image": "https://drive.google.com/thumbnail?id=1Tehp8Dgg1bp3hbECr0wx4n7zKHNy6epX&sz=w800",
     "category": "growth",
-    "problemsSolved": ["Stunted Growth", "Weak Stems", "Poor Root Development", "Nutrient Deficiency"],
-    "suitableCrops": ["All Vegetables", "Cereals", "Pulses", "Ornamentals"],
+    "problemsSolved": [
+      "Stunted Growth",
+      "Weak Plant Development",
+      "Poor Root Growth",
+      "Nutrient Deficiency"
+    ],
+    "suitableCrops": [
+      "Vegetables",
+      "Fruits",
+      "Cereals",
+      "Pulses",
+      "Ornamental Plants"
+    ],
     "applicationType": "spray",
-    "dosage": "2-3ml per liter of water",
+    "dosage": "2–3 ml per liter of water",
     "frequency": "Every 15 days",
-    "ingredients": ["Seaweed extract", "Moringa oil", "Amino acids", "Micro-nutrients"],
-    "benefits": ["30% faster growth", "Stronger stems", "Enhanced nutrient uptake", "Improved yield"],
-    "featured": true
-  },
-  {
-    "id": "leaf-care",
-    "name": "Leaf Care Organic",
-    "shortDescription": "Heal and protect damaged leaves",
-    "description": "Specially formulated to treat leaf curl, yellowing, and damage. Restores leaf health while providing ongoing protection against future problems.",
-    "image": "/products/leaf-care.jpg",
-    "category": "leaf-treatment",
-    "problemsSolved": ["Leaf Curl", "Yellowing", "Leaf Burn", "Necrosis", "Chlorosis"],
-    "suitableCrops": ["Chili", "Tomato", "Papaya", "Cotton", "Citrus"],
-    "applicationType": "spray",
-    "dosage": "3ml per liter of water",
-    "frequency": "Every 7 days until recovery",
-    "ingredients": ["Neem oil", "Eucalyptus extract", "Vitamin E", "Natural healing compounds"],
-    "benefits": ["Rapid healing", "Prevents spread", "Improves photosynthesis", "Stress relief"],
+    "ingredients": [
+      "Natural plant extracts",
+      "Growth promoting oils",
+      "Essential nutrients",
+      "Bio-active compounds"
+    ],
+    "benefits": [
+      "Promotes faster and healthier growth",
+      "Improves root and shoot development",
+      "Enhances nutrient absorption",
+      "Increases overall plant strength and yield"
+    ],
     "featured": false
   },
   {
-    "id": "fruit-protect",
-    "name": "Fruit Protect Max",
-    "shortDescription": "Prevent fruit fall and improve quality",
-    "description": "Reduces premature fruit drop and enhances fruit set. Strengthens the connection between fruit and stem while improving overall fruit quality.",
-    "image": "/products/fruit-protect.jpg",
-    "category": "fruit-care",
-    "problemsSolved": ["Fruit Fall", "Poor Fruit Set", "Small Fruit Size", "Premature Ripening"],
-    "suitableCrops": ["Mango", "Citrus", "Grapes", "Pomegranate", "Apple"],
+    "id": "17",
+    "name": "All Out Plant Protector",
+    "shortDescription": "Complete protection against pests and plant diseases",
+    "description": "All Out Plant Protector is a broad-spectrum plant protection solution that helps safeguard crops from multiple pests and diseases. It supports healthy plant growth by reducing stress and improving resistance against common agricultural problems.",
+    "image": "https://drive.google.com/thumbnail?id=1tCJ3Sl4PrDl6V_SsFppZWVH260o0hR6K&sz=w800",
+    "category": "plant-protection",
+    "problemsSolved": [
+      "Pest Infestation",
+      "Leaf Damage",
+      "Plant Stress",
+      "Poor Growth"
+    ],
+    "suitableCrops": [
+      "Vegetables",
+      "Fruits",
+      "Pulses",
+      "Cereals",
+      "Ornamental Plants"
+    ],
     "applicationType": "spray",
-    "dosage": "2ml per liter of water",
-    "frequency": "At flowering and fruit set stages",
-    "ingredients": ["Borage oil", "Natural hormones", "Calcium complex", "Potassium"],
-    "benefits": ["50% less fruit drop", "Larger fruits", "Better color", "Extended shelf life"],
-    "featured": true
-  },
-  {
-    "id": "root-power",
-    "name": "Root Power Organic",
-    "shortDescription": "Strengthen roots and soil health",
-    "description": "A unique root drench formula that promotes extensive root development and improves soil microbial activity for sustainable plant health.",
-    "image": "/products/root-power.jpg",
-    "category": "root-health",
-    "problemsSolved": ["Root Rot", "Weak Roots", "Poor Soil Health", "Transplant Shock"],
-    "suitableCrops": ["All Crops", "Nursery Plants", "Transplants", "Orchards"],
-    "applicationType": "drip",
-    "dosage": "5ml per liter of water",
-    "frequency": "Monthly application",
-    "ingredients": ["Castor oil derivatives", "Humic acids", "Beneficial microbes", "Root stimulants"],
-    "benefits": ["Deeper roots", "Disease resistance", "Better nutrient absorption", "Soil enrichment"],
+    "dosage": "3–5 ml per liter of water",
+    "frequency": "Every 7–10 days or as required",
+    "ingredients": [
+      "Natural plant extracts",
+      "Botanical oils",
+      "Bio-active compounds"
+    ],
+    "benefits": [
+      "Broad-spectrum plant protection",
+      "Reduces pest and disease damage",
+      "Improves plant strength",
+      "Supports healthy crop growth"
+    ],
     "featured": false
   },
   {
-    "id": "flower-bloom",
-    "name": "Flower Bloom Special",
-    "shortDescription": "Enhance flowering and pollination",
-    "description": "Promotes abundant flowering and improves pollination success. Ideal for flowering crops and ornamentals seeking maximum bloom potential.",
-    "image": "/products/flower-bloom.jpg",
-    "category": "flowering",
-    "problemsSolved": ["Poor Flowering", "Flower Drop", "Low Pollination", "Bud Damage"],
-    "suitableCrops": ["Roses", "Jasmine", "Marigold", "Vegetable crops", "Orchids"],
-    "applicationType": "spray",
-    "dosage": "2ml per liter of water",
-    "frequency": "Before and during flowering",
-    "ingredients": ["Evening primrose oil", "Phosphorus complex", "Boron", "Natural bloom enhancers"],
-    "benefits": ["More flowers", "Longer bloom period", "Vibrant colors", "Better fragrance"],
+    "id": "5L",
+    "name": "Root Power",
+    "shortDescription": "Enhances strong root development and plant vigor",
+    "description": "Root Power is a plant growth promoter formulated to stimulate healthy root development and improve nutrient uptake. It enhances early plant establishment and supports vigorous growth for higher productivity.",
+    "image": "https://drive.google.com/thumbnail?id=16g0vxomqrGvptBV3ormq8eugu6WNQKVw&sz=w800",
+    "category": "growth",
+    "problemsSolved": [
+      "Weak Root System",
+      "Poor Nutrient Uptake",
+      "Slow Plant Growth",
+      "Transplant Shock"
+    ],
+    "suitableCrops": [
+      "Vegetables",
+      "Fruits",
+      "Cereals",
+      "Pulses",
+      "Plantation Crops"
+    ],
+    "applicationType": "soil application",
+    "dosage": "3–5 ml per liter of water",
+    "frequency": "Every 10–15 days",
+    "ingredients": [
+      "Root stimulating extracts",
+      "Organic growth promoters",
+      "Essential nutrients"
+    ],
+    "benefits": [
+      "Promotes strong and healthy roots",
+      "Improves nutrient absorption",
+      "Enhances plant establishment",
+      "Increases overall crop performance"
+    ],
     "featured": false
   },
   {
-    "id": "pest-terminator",
-    "name": "Pest Terminator Plus",
-    "shortDescription": "Advanced multi-pest organic solution",
-    "description": "Our most potent organic pest control formula. Effective against boring insects, caterpillars, and stubborn pest infestations.",
-    "image": "/products/pest-terminator.jpg",
-    "category": "pest-control",
-    "problemsSolved": ["Borers", "Caterpillars", "Beetles", "Grasshoppers", "Armyworms"],
-    "suitableCrops": ["Sugarcane", "Maize", "Rice", "Cotton", "Brinjal"],
+    "id": "18",
+    "name": "Boxer Plant Protector",
+    "shortDescription": "Powerful protection against pests and plant stress",
+    "description": "Boxer Plant Protector is a broad-spectrum plant protection solution formulated to protect crops from pests and environmental stress. It supports healthy plant growth and improves resistance against common agricultural problems.",
+    "image": "https://drive.google.com/thumbnail?id=1B39I_uSC5dlByF9ohT1PWof8dibIZdb-&sz=w800",
+    "category": "plant-protection",
+    "problemsSolved": [
+      "Pest Infestation",
+      "Leaf Damage",
+      "Plant Stress",
+      "Growth Reduction"
+    ],
+    "suitableCrops": [
+      "Vegetables",
+      "Fruits",
+      "Cereals",
+      "Pulses",
+      "Ornamental Plants"
+    ],
     "applicationType": "spray",
-    "dosage": "4-5ml per liter of water",
-    "frequency": "Every 10-14 days",
-    "ingredients": ["Concentrated neem", "Pongamia extract", "Garlic oil", "Chili extract"],
-    "benefits": ["Kills on contact", "Repellent action", "Stops egg laying", "Safe for crops"],
+    "dosage": "3–5 ml per liter of water",
+    "frequency": "Every 7–10 days or as required",
+    "ingredients": [
+      "Botanical extracts",
+      "Natural plant oils",
+      "Bio-active compounds"
+    ],
+    "benefits": [
+      "Provides strong plant protection",
+      "Reduces pest damage",
+      "Improves plant vigor",
+      "Supports healthy crop growth"
+    ],
     "featured": false
-  }
+  },
+  {
+    "id": "19",
+    "name": "Rapigrow Plant Protector",
+    "shortDescription": "Rapid growth support and plant protection",
+    "description": "Rapigrow Plant Protector is designed to enhance plant growth while protecting crops from stress factors. It promotes faster vegetative growth and improves overall plant health and productivity.",
+    "image": "https://drive.google.com/thumbnail?id=1Nuger6ctoo6iS8Q-mPDTOl8CYNCNTFE4&sz=w800",
+    "problemsSolved": [
+      "Slow Plant Growth",
+      "Weak Development",
+      "Nutrient Imbalance",
+      "Plant Stress"
+    ],
+    "suitableCrops": [
+      "Vegetables",
+      "Fruits",
+      "Cereals",
+      "Pulses",
+      "Ornamental Plants"
+    ],
+    "applicationType": "spray",
+    "dosage": "2–3 ml per liter of water",
+    "frequency": "Every 10–15 days",
+    "ingredients": [
+      "Natural growth promoters",
+      "Plant-based oils",
+      "Essential nutrients"
+    ],
+    "benefits": [
+      "Promotes faster plant growth",
+      "Enhances nutrient uptake",
+      "Improves plant strength",
+      "Increases yield potential"
+    ],
+    "featured": false
+  },
+  {
+    "id": "20",
+    "name": "All Clear Plant Protector",
+    "shortDescription": "Clear and complete plant protection solution",
+    "description": "All Clear Plant Protector is formulated to provide effective protection against pests and plant stress. It helps maintain plant health by improving resistance and supporting balanced growth.",
+    "image": "https://drive.google.com/thumbnail?id=1VeQLphuSVi-DVKKtkfXyNPVClaTtRLVc&sz=w800",
+    "category": "plant-protection",
+    "problemsSolved": [
+      "Pest Infestation",
+      "Leaf Damage",
+      "Plant Stress",
+      "Poor Plant Health"
+    ],
+    "suitableCrops": [
+      "Vegetables",
+      "Fruits",
+      "Cereals",
+      "Pulses",
+      "Plantation Crops"
+    ],
+    "applicationType": "spray",
+    "dosage": "3–5 ml per liter of water",
+    "frequency": "Every 7–10 days",
+    "ingredients": [
+      "Natural plant extracts",
+      "Botanical oils",
+      "Bio-active compounds"
+    ],
+    "benefits": [
+      "Provides complete plant protection",
+      "Improves crop resistance",
+      "Supports healthy growth",
+      "Enhances overall plant performance"
+    ],
+    "featured": false
+  },
+{
+  "id": "22",
+  "name": "V-STOP Plant Protector",
+  "shortDescription": "Effective protection against plant pests and diseases",
+  "description": "V-STOP Plant Protector is a reliable plant protection solution designed to control pests and reduce plant stress. It helps maintain healthy crop growth by improving plant resistance and overall vigor.",
+
+  "image": "https://drive.google.com/thumbnail?id=19W0Db1W0j4oGJ8Tjwl3Y5QiYdUneV6wQ&sz=w800",
+
+  "category": "plant-protection",
+
+  "problemsSolved": [
+    "Pest Infestation",
+    "Leaf Damage",
+    "Plant Stress",
+    "Poor Crop Health"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Fruits",
+    "Cereals",
+    "Pulses",
+    "Ornamental Plants"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "3–5 ml per liter of water",
+  "frequency": "Every 7–10 days or as required",
+
+  "ingredients": [
+    "Botanical extracts",
+    "Natural plant oils",
+    "Bio-active compounds"
+  ],
+
+  "benefits": [
+    "Controls common plant pests",
+    "Improves plant resistance",
+    "Supports healthy growth",
+    "Enhances crop performance"
+  ],
+
+  "featured": false
+},
+  {
+  "id": "23",
+  "name": "Root Power Plant Protector",
+  "shortDescription": "Strengthens roots and improves nutrient uptake",
+  "description": "Root Power Plant Protector is formulated to promote strong root development and enhance nutrient absorption. It helps plants establish better root systems, leading to improved growth and productivity.",
+
+  "image": "https://drive.google.com/thumbnail?id=1z3PhL3Sesa3xEh58_g9Lz_pKcTo66-EK&sz=w800",
+  "category": "growth",
+
+  "problemsSolved": [
+    "Weak Root System",
+    "Poor Nutrient Uptake",
+    "Slow Plant Growth",
+    "Transplant Stress"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Fruits",
+    "Cereals",
+    "Pulses",
+    "Plantation Crops"
+  ],
+
+  "applicationType": "soil application",
+  "dosage": "3–5 ml per liter of water",
+  "frequency": "Every 10–15 days",
+
+  "ingredients": [
+    "Root stimulating extracts",
+    "Organic growth promoters",
+    "Essential nutrients"
+  ],
+
+  "benefits": [
+    "Promotes strong and healthy roots",
+    "Improves nutrient absorption",
+    "Enhances early plant growth",
+    "Increases overall crop yield"
+  ],
+
+  "featured": false
+},
+{
+  "id": "A+S+P+G",
+  "name": "Amruth Plus Plant Protector",
+  "shortDescription": "Improves plant vitality and balanced growth",
+  "description": "Amruth Plus Plant Protector helps enhance overall plant health by improving nutrient absorption and reducing stress. It supports balanced growth and better crop performance.",
+
+  "image": "https://drive.google.com/thumbnail?id=120JdUbhUt9QfL4LKfrqIJgPAYzHxo0P3&sz=w800",
+
+  "category": "growth",
+
+  "problemsSolved": [
+    "Poor Plant Growth",
+    "Nutrient Deficiency",
+    "Plant Stress"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Pulses",
+    "Cereals",
+    "Oil Seeds"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "2–3 ml per liter of water",
+  "frequency": "Every 10–15 days",
+
+  "ingredients": [
+    "Natural growth promoters",
+    "Plant extracts",
+    "Essential nutrients"
+  ],
+
+  "benefits": [
+    "Enhances plant vigor",
+    "Improves nutrient uptake",
+    "Supports uniform growth"
+  ],
+
+  "featured": false
+},
+{
+  "id": "BAANAM",
+  "name": "Baanam",
+  "shortDescription": "Targeted crop protection solution",
+  "description": "Baanam is designed to protect crops from specific stress factors and improve crop health. It supports better resistance and stable growth.",
+
+  "image": "https://drive.google.com/thumbnail?id=13lAnZRy96lrFWNkDIOLQf1If3KlH8Lk1&sz=w800",
+  "category": "plant-protection",
+
+  "problemsSolved": [
+    "Crop Stress",
+    "Damage Symptoms"
+  ],
+
+  "suitableCrops": [
+    "Maize",
+    "Vegetables",
+    "Field Crops"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "As recommended",
+  "frequency": "As required",
+
+  "ingredients": [
+    "Plant-based compounds"
+  ],
+
+  "benefits": [
+    "Improves crop tolerance",
+    "Supports healthy development"
+  ],
+
+  "featured": false
+},
+{
+  "id": "Bullet",
+  "name": "Bullet",
+  "shortDescription": "Fast-acting plant protection formula",
+  "description": "Bullet is a fast-acting plant protection product designed to support crops under stress conditions and improve plant performance.",
+
+    "image": "https://drive.google.com/thumbnail?id=1IoFVlPP-h-jY9Erp8j_8JrzMYZQC3ZrO&sz=w800",
+  "category": "plant-protection",
+
+  "problemsSolved": [
+    "Plant Stress",
+    "Growth Reduction"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Field Crops"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "As recommended",
+  "frequency": "As required",
+
+  "ingredients": [
+    "Bio-active compounds"
+  ],
+
+  "benefits": [
+    "Quick action",
+    "Improves plant resilience"
+  ],
+
+  "featured": false
+},
+{
+  "id": "Don",
+  "name": "DON",
+  "shortDescription": "Improves plant strength and growth",
+  "description": "DON is formulated to support plant strength and improve overall growth. It helps crops perform better by enhancing nutrient utilization.",
+
+   "image": "https://drive.google.com/thumbnail?id=1Tk3abdpvgqCN7j1PO2zqZsqte1gpFK4V&sz=w800",
+  "category": "growth",
+
+  "problemsSolved": [
+    "Weak Growth",
+    "Low Plant Vigor"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Fruits",
+    "Field Crops"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "As recommended",
+  "frequency": "As required",
+
+  "ingredients": [
+    "Growth stimulants",
+    "Essential nutrients"
+  ],
+
+  "benefits": [
+    "Enhances plant vigor",
+    "Supports better yield"
+  ],
+
+  "featured": false
+},
+{
+  "id": "dr-soil rm",
+  "name": "Dr. Soil",
+  "shortDescription": "Improves soil health and nutrient availability",
+  "description": "Dr. Soil is a soil conditioner designed to enhance soil fertility, structure, and microbial activity. It improves nutrient availability and supports healthy root development for better crop performance.",
+
+ "image": "https://drive.google.com/thumbnail?id=1ci3-kRtCEEfgpotWWcvCwmlPJbJUZpoe&sz=w800",
+  "category": "soil-conditioner",
+
+  "problemsSolved": [
+    "Poor Soil Fertility",
+    "Low Nutrient Availability",
+    "Weak Root Development"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Fruits",
+    "Cereals",
+    "Pulses",
+    "Plantation Crops"
+  ],
+
+  "applicationType": "soil application",
+  "dosage": "As recommended",
+  "frequency": "As required",
+
+  "ingredients": [
+    "Organic soil conditioners",
+    "Natural minerals",
+    "Beneficial microbes"
+  ],
+
+  "benefits": [
+    "Improves soil structure",
+    "Enhances nutrient uptake",
+    "Promotes healthy root growth"
+  ],
+
+  "featured": false
+},
+{
+  "id": "finish",
+  "name": "Finish Plant Protector",
+  "shortDescription": "Effective control of pests and crop stress",
+  "description": "Finish Plant Protector provides reliable protection against pests and stress factors affecting crops. It helps maintain healthy plant growth and improves overall crop resilience.",
+
+  "image": "https://drive.google.com/thumbnail?id=1gHMJ_7_dNvVCdCXnH-xMSw-xyrNmhCDt&sz=w800",
+
+  "category": "plant-protection",
+
+  "problemsSolved": [
+    "Pest Infestation",
+    "Leaf Damage",
+    "Plant Stress"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Fruits",
+    "Cereals",
+    "Pulses"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "3–5 ml per liter of water",
+  "frequency": "Every 7–10 days or as required",
+
+  "ingredients": [
+    "Botanical extracts",
+    "Natural plant oils"
+  ],
+
+  "benefits": [
+    "Protects crops from pests",
+    "Improves plant resistance",
+    "Supports healthy growth"
+  ],
+
+  "featured": false
+},
+{
+  "id": "flame new",
+  "name": "Flame",
+  "shortDescription": "Enhances plant energy and performance",
+  "description": "Flame is formulated to boost plant energy and improve growth performance. It supports crops during critical growth stages and helps plants withstand stress conditions.",
+"image": "https://drive.google.com/thumbnail?id=1MdKuQpYhbVRG-SR6oBh9lA47mNXWYhFJ&sz=w800",
+  "category": "growth",
+
+  "problemsSolved": [
+    "Low Plant Energy",
+    "Growth Slowdown",
+    "Stress Conditions"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Fruits",
+    "Field Crops"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "As recommended",
+  "frequency": "As required",
+
+  "ingredients": [
+    "Growth stimulants",
+    "Bio-active compounds"
+  ],
+
+  "benefits": [
+    "Improves plant vigor",
+    "Enhances growth rate",
+    "Supports better yield"
+  ],
+
+  "featured": false
+},
+{
+  "id": "mantri",
+  "name": "Manthi Plant Protector",
+  "shortDescription": "Traditional formulation for crop protection",
+  "description": "Manthi Plant Protector is a traditional plant protection solution designed to safeguard crops from pests and stress. It supports plant health and ensures steady crop growth.",
+
+ "image": "https://drive.google.com/thumbnail?id=1UiSZMhIK-KEpIIt25NhrXh20n99-ynAU&sz=w800",
+  "category": "plant-protection",
+
+  "problemsSolved": [
+    "Pest Infestation",
+    "Crop Stress",
+    "Plant Damage"
+  ],
+
+  "suitableCrops": [
+    "Vegetables",
+    "Spices",
+    "Field Crops"
+  ],
+
+  "applicationType": "spray",
+  "dosage": "As recommended",
+  "frequency": "As required",
+
+  "ingredients": [
+    "Herbal extracts",
+    "Plant-based compounds"
+  ],
+
+  "benefits": [
+    "Protects crops naturally",
+    "Improves plant health",
+    "Supports consistent growth"
+  ],
+
+  "featured": false
+}
+
 ]

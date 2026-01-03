@@ -75,11 +75,11 @@ const Home = () => {
                 <span className="text-cream-white/90 text-sm">Trusted by 10,000+ Farmers</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-cream-white mb-6 leading-tight">
-                Organic Solutions for Every Crop.{" "}
-                <span className="text-accent">Naturally Effective.</span>
+                Nikitha kisan seva kendra.{" "}
+                {/*<span className="text-accent">Naturally Effective.</span>*/}
               </h1>
               <p className="text-lg md:text-xl text-cream-white/80 mb-8 max-w-2xl">
-                Premium agricultural oils that protect your crops from pests, diseases, and stress—while keeping your farm 100% organic and eco-friendly.
+                Nikhithaa Kisan Seva Kendra is a dedicated organic, oil-based agricultural company committed to supporting farmers with high-quality, nature-friendly products.
               </p>
               <div className="flex flex-wrap gap-4 mb-10">
                 <Link to="/products">
@@ -87,11 +87,7 @@ const Home = () => {
                     View Products <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
-                <Link to="/how-it-works">
-                  <Button size="lg" variant="outline" className="border-cream-white/30 text-cream-white hover:bg-cream-white/10 rounded-full px-8 hover:scale-105 transition-transform">
-                    How It Works
-                  </Button>
-                </Link>
+
               </div>
 
               {/* Quick Stats */}
@@ -113,12 +109,12 @@ const Home = () => {
                 <div className="absolute inset-0 rounded-full border-2 border-cream-white/10 animate-pulse" />
                 <div className="absolute inset-4 rounded-full border-2 border-accent/20 animate-pulse" style={{ animationDelay: "0.5s" }} />
                 <div className="absolute inset-8 rounded-full border-2 border-leaf-green/20 animate-pulse" style={{ animationDelay: "1s" }} />
-                
+
                 {/* Central Image Container */}
                 <div className="absolute inset-12 rounded-full bg-gradient-to-br from-cream-white/10 via-accent/5 to-leaf-green/10 backdrop-blur-sm flex items-center justify-center overflow-hidden">
                   <div className="text-center">
                     <Droplets className="w-20 h-20 text-accent mx-auto mb-4 animate-float" />
-                    <p className="text-cream-white/80 font-medium">Pure Organic Oils</p>
+                    <p className="text-cream-white/80 font-medium">Nikhithaa Kisan Seva Kendra</p>
                     <p className="text-cream-white/50 text-sm">For Healthy Crops</p>
                   </div>
                 </div>
@@ -169,7 +165,7 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section 
+      <section
         ref={whySection.ref}
         className="section-padding bg-background"
       >
@@ -180,8 +176,8 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
             {whyChooseUs.map((item, i) => (
-              <div 
-                key={i} 
+              <div
+                key={i}
                 className={`card-organic p-5 text-center group hover:shadow-hover transition-all duration-300 hover:-translate-y-1 ${whySection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
                 style={{ animationDelay: `${i * 0.1}s` }}
               >
@@ -197,7 +193,7 @@ const Home = () => {
       </section>
 
       {/* Crop Problem Solver */}
-      <section 
+      <section
         ref={solverSection.ref}
         className="section-padding bg-muted/50"
       >
@@ -225,8 +221,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Products */}
-      <section 
+      {/* Featured Products 
+      <section
         ref={productsSection.ref}
         className="section-padding bg-background"
       >
@@ -242,7 +238,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredProducts.map((product, i) => (
-              <div 
+              <div
                 key={product.id}
                 className={productsSection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}
                 style={productsSection.getStaggerDelay(i)}
@@ -253,9 +249,11 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+      */}
 
       {/* How It Works */}
-      <section 
+      <section
         ref={stepsSection.ref}
         className="section-padding bg-muted/50"
       >
@@ -266,8 +264,8 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {steps.map((step, i) => (
-              <div 
-                key={i} 
+              <div
+                key={i}
                 className={`relative ${stepsSection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
                 style={stepsSection.getStaggerDelay(i)}
               >
@@ -283,8 +281,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Crop Issues */}
-      <section 
+      {/* Crop Issues 
+      <section
         ref={issuesSection.ref}
         className="section-padding bg-background"
       >
@@ -300,7 +298,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {issues.map((issue, i) => (
-              <div 
+              <div
                 key={issue.id}
                 className={issuesSection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}
                 style={issuesSection.getStaggerDelay(i)}
@@ -311,9 +309,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/* Testimonials */}
-      <section 
+      <section
         ref={testimonialSection.ref}
         className="section-padding bg-primary text-primary-foreground"
       >
@@ -324,7 +323,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {testimonials.map((t, i) => (
-              <div 
+              <div
                 key={t.id}
                 className={testimonialSection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}
                 style={testimonialSection.getStaggerDelay(i)}
@@ -335,9 +334,12 @@ const Home = () => {
           </div>
           <div className={`text-center mt-10 ${testimonialSection.isVisible ? 'animate-fade-in' : 'opacity-0'}`} style={{ animationDelay: "0.4s" }}>
             <Link to="/testimonials">
-              <Button variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 rounded-full hover:scale-105 transition-transform">
+              <Button
+                variant="outline"
+                className="border-yellow-400 text-yellow-400 hover:bg-yellow-400/10 rounded-full hover:scale-105 transition-transform">
                 Read More Stories <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
+
             </Link>
           </div>
         </div>

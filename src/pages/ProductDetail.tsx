@@ -31,7 +31,7 @@ const defaultFAQs = [
 const ProductDetail = () => {
   const { id } = useParams();
   const product = productsData.find((p) => p.id === id);
-  
+
   if (!product) {
     return (
       <div className="section-padding container-custom text-center">
@@ -53,21 +53,59 @@ const ProductDetail = () => {
 
       {/* Main Product Info */}
       <div className="grid lg:grid-cols-2 gap-10 mb-16">
-        <div className="bg-gradient-to-br from-primary/10 via-accent/5 to-secondary/10 rounded-3xl h-80 lg:h-full min-h-[320px] flex items-center justify-center relative overflow-hidden">
-          <div className="absolute inset-0 opacity-20">
-            <div className="absolute top-4 left-4 w-20 h-20 border-2 border-primary rounded-full" />
-            <div className="absolute bottom-8 right-8 w-32 h-32 border-2 border-accent rounded-full" />
+        <div className="bg-gradient-to-br ... px-16 py-12">
+
+          {/* 🔴 LEFT: PRODUCT BACKGROUND (WIDER) */}
+          <div className="
+    bg-gradient-to-br from-primary/10 via-accent/5 to-secondary/10
+    rounded-3xl
+    flex items-end justify-center
+    relative
+    overflow-hidden
+    py-12
+  ">
+
+            {/* 🟢 IMAGE CONTAINER */}
+            <div className="w-full flex justify-center">
+
+              {product?.image ? (
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="
+            h-[520px] lg:h-[450px]
+            w-1000%
+            max-w-[500%]
+            object-contain
+          "
+                />
+              ) : (
+                <Droplets className="w-100 h-24 text-primary/30" />
+              )}
+
+            </div>
           </div>
-          <Droplets className="w-32 h-32 text-primary/30" />
+
+          {/* RIGHT: PRODUCT CONTENT */}
+          <div className="flex flex-col">
+            {/* Title */}
+            {/* Description */}
+            {/* Problems */}
+            {/* Crops */}
+            {/* Application Details */}
+          </div>
+
         </div>
-        
+
+
+
         <div>
           <span className="inline-block bg-primary/10 text-primary text-sm font-medium px-3 py-1 rounded-full mb-4">
             {product.category.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase())}
           </span>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">{product.name}</h1>
           <p className="text-muted-foreground mb-6 text-lg">{product.description}</p>
-          
+
           <div className="mb-6">
             <h3 className="font-semibold mb-3 flex items-center gap-2">
               <CheckCircle className="w-5 h-5 text-primary" /> Problems Solved
@@ -78,7 +116,7 @@ const ProductDetail = () => {
               ))}
             </div>
           </div>
-          
+
           <div className="mb-6">
             <h3 className="font-semibold mb-3 flex items-center gap-2">
               <Leaf className="w-5 h-5 text-primary" /> Suitable Crops
@@ -89,7 +127,7 @@ const ProductDetail = () => {
               ))}
             </div>
           </div>
-          
+
           <div className="bg-card border border-border rounded-2xl p-5 mb-6">
             <h3 className="font-semibold mb-3">Application Details</h3>
             <div className="grid grid-cols-3 gap-4 text-center">
@@ -110,7 +148,7 @@ const ProductDetail = () => {
               </div>
             </div>
           </div>
-          
+
           <Link to="/contact">
             <Button size="lg" className="rounded-full w-full sm:w-auto">Enquire Now</Button>
           </Link>
@@ -176,7 +214,7 @@ const ProductDetail = () => {
         </div>
       </div>
 
-      {/* Before/After Results */}
+      {/* Before/After Results
       <div className="mb-16">
         <h3 className="text-2xl font-bold mb-6 text-center">Expected Results</h3>
         <div className="grid md:grid-cols-2 gap-6">
@@ -204,6 +242,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
+       */}
 
       {/* FAQ Section */}
       <div className="max-w-3xl mx-auto">

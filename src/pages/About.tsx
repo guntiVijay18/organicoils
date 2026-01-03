@@ -5,12 +5,14 @@ import { useScrollAnimation, useStaggerAnimation } from "@/hooks/useScrollAnimat
 
 const About = () => {
   const timeline = [
-    { year: "2010", title: "The Beginning", desc: "Founded with a vision to bring organic solutions to farmers" },
-    { year: "2013", title: "First Products", desc: "Launched our flagship Neem Supreme Oil" },
-    { year: "2016", title: "Expansion", desc: "Reached 5,000+ farmers across 10 states" },
-    { year: "2018", title: "Research Lab", desc: "Established in-house R&D facility" },
-    { year: "2021", title: "Certification", desc: "Received USDA Organic & India Organic certifications" },
-    { year: "2024", title: "Today", desc: "Serving 50,000+ farmers with 15+ products" },
+    { year: "2015", title: "Company Establishment", desc: "Nikhithaa Kisan Seva Kendra was founded with a vision to provide farmers with pure and reliable organic oils and fertilizers." },
+    { year: "2016", title: "Initial Farmer Outreach", desc: "Started reaching local farmers, introducing them to natural farming solutions and building early trust." },
+    { year: "2017", title: "Product Expansion", desc: "Launched additional organic oils and plant-growth products based on farmer needs and field results." },
+    { year: "2018", title: "Strong Local Presence", desc: "Improved distribution in nearby regions; more farmers began adopting our organic solutions." },
+    { year: "2019", title: "Noticeable Growth", desc: "The company saw significant growth as demand for organic oils and fertilizers increased rapidly." },
+    { year: "2020", title: "Major Market Expansion", desc: "Expanded product availability to wider districts; more farmers and retailers started partnering with us." },
+    { year: "2021", title: "Enhanced Production Capacity", desc: "Increased manufacturing capacity to meet rising demand while maintaining high product quality." },
+    { year: "2022", title: "Brand Recognition", desc: "Nikhithaa Kisan Seva Kendra became a trusted name among farmers for genuine and effective organic agricultural products." },
   ];
 
   const values = [
@@ -74,25 +76,36 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Our Journey</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  AgroOrganics was born from a simple observation: farmers needed better alternatives to harmful chemical pesticides. In 2010, our founder, a third-generation farmer himself, began experimenting with traditional organic remedies passed down through generations.
+                  Nikhithaa Kisan Seva Kendra is a dedicated organic, oil-based agricultural company committed to supporting farmers with high-quality, nature-friendly products. We specialize in providing premium organic oils, natural fertilizers, bio-nutrients, and plant-growth enhancers that help crops grow healthier, stronger, and more sustainably.
                 </p>
                 <p>
-                  What started as a small operation in rural Maharashtra has grown into a trusted name across India. We combine traditional knowledge with modern science to create products that are effective, safe, and sustainable.
+                  At Nikhithaa Kisan Seva Kendra, we understand that modern farming needs reliable, chemical-free solutions that protect the soil, enrich the crops, and safeguard the environment. That’s why all our products are created using scientifically backed organic formulations, ensuring safety, purity, and long-term effectiveness.
                 </p>
                 <p>
-                  Today, we're proud to serve over 50,000 farmers, helping them grow healthier crops while protecting their families and the environment.
+                  We serve as a trusted partner for farmers who seek to cultivate with care, improve productivity, and adopt eco-conscious farming practices. Our goal is to make high-quality organic inputs easily accessible to every farmer and encourage a healthier agricultural ecosystem.
+                </p>
+                <p>
+                  From small-scale farmers to large cultivators, thousands trust Nikhithaa Kisan Seva Kendra for genuine products, expert guidance, and long-lasting agricultural benefits. We believe that sustainability begins with the soil—and we are committed to nurturing it with nature’s best.
                 </p>
               </div>
             </div>
-            <div className={`relative ${storySection.isVisible ? 'animate-slide-in-right' : 'opacity-0'}`}>
-              <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/20 via-leaf-green/20 to-accent/20 flex items-center justify-center">
-                <div className="text-center">
-                  <span className="text-8xl">🌱</span>
-                  <p className="text-lg font-semibold text-foreground mt-4">Growing Together Since 2010</p>
-                </div>
+            <div
+              className={`relative ${storySection.isVisible ? "animate-slide-in-right" : "opacity-0"
+                }`}
+            >
+              <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/20 via-leaf-green/20 to-accent/20 flex items-center justify-center overflow-hidden">
+                <img
+                  src="https://drive.google.com/thumbnail?id=1n0IZ3S1Litgn3S8zt1cjatabkDGkx70X&sz=w800"
+                  alt="Growing Together Since 2010"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  referrerPolicy="no-referrer"
+                />
               </div>
+
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-2xl animate-pulse" />
             </div>
+
           </div>
         </div>
       </section>
@@ -107,7 +120,7 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground">
-                To revolutionize Indian agriculture by providing farmers with premium organic solutions that enhance crop health, increase yields, and protect the environment—all while being affordable and accessible to every farmer.
+                Our mission is to empower farmers with pure, organic, and effective agricultural products that enhance crop growth and soil fertility while promoting chemical-free and environmentally safe farming practices. We are committed to making reliable organic oils and fertilizers affordable and accessible to farmers of all scales, while providing continuous support and guidance to improve productivity and encourage the adoption of sustainable, natural farming solutions for a healthier future.
               </p>
             </div>
             <div className={`card-organic p-8 group hover:shadow-hover transition-all duration-300 hover:-translate-y-1 ${missionSection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: "0.1s" }}>
@@ -116,7 +129,7 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground">
-                A future where every farm in India is chemical-free, every farmer is prosperous, and every consumer has access to safe, organic produce. We envision an agricultural ecosystem in harmony with nature.
+                Our vision is to become a leading organic agricultural brand recognized for trust, quality, and farmer-centric innovation, while building a future where eco-friendly and sustainable farming practices are widely adopted. We aim to continuously innovate and develop organic solutions that restore soil health, enhance crop resilience, and contribute to a greener, cleaner agricultural ecosystem that benefits farmers, consumers, and the environment.
               </p>
             </div>
           </div>
@@ -133,7 +146,7 @@ const About = () => {
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-primary/20 hidden md:block" />
-            
+
             <div className="space-y-8 md:space-y-0">
               {timeline.map((item, i) => (
                 <div
@@ -167,8 +180,8 @@ const About = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {values.map((value, i) => (
-              <div 
-                key={i} 
+              <div
+                key={i}
                 className={`text-center p-6 rounded-2xl bg-cream-white/5 backdrop-blur-sm hover:bg-cream-white/10 transition-all duration-300 hover:-translate-y-1 ${valuesSection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
                 style={valuesSection.getStaggerDelay(i)}
               >
@@ -192,8 +205,8 @@ const About = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {process.map((step, i) => (
-              <div 
-                key={i} 
+              <div
+                key={i}
                 className={`relative ${processSection.isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
                 style={processSection.getStaggerDelay(i)}
               >
@@ -212,7 +225,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Certifications */}
+      {/* Certifications 
       <section ref={certSection.ref} className="section-padding bg-muted/50">
         <div className="container-custom">
           <div className={`text-center mb-12 ${certSection.isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
@@ -221,8 +234,8 @@ const About = () => {
           </div>
           <div className={`flex flex-wrap justify-center gap-4 ${certSection.isVisible ? 'animate-scale-in' : 'opacity-0'}`}>
             {certifications.map((cert, i) => (
-              <div 
-                key={i} 
+              <div
+                key={i}
                 className={`${cert.color} text-cream-white px-6 py-3 rounded-full font-medium hover:scale-105 transition-transform cursor-default`}
                 style={{ animationDelay: `${i * 0.1}s` }}
               >
@@ -233,7 +246,9 @@ const About = () => {
         </div>
       </section>
 
-      {/* Founder Message */}
+      */}
+
+      {/* Founder Message 
       <section ref={founderSection.ref} className="section-padding bg-background">
         <div className="container-custom max-w-4xl">
           <div className={`card-organic p-8 md:p-12 text-center relative ${founderSection.isVisible ? 'animate-scale-in' : 'opacity-0'}`}>
@@ -251,6 +266,9 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      */}
+      
 
       {/* CTA */}
       <section className="section-padding bg-accent">

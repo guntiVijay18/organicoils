@@ -5,12 +5,15 @@ import testimonialsData from "@/data/testimonials.json";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+
+
 const categories = ["All", "Farmers", "Organic Growers", "Large Scale"];
 
+
 const videoTestimonials = [
-  { id: 1, name: "Ravi Shankar", location: "Tamil Nadu", title: "From Chemicals to Organic Success", duration: "3:45" },
-  { id: 2, name: "Priya Patel", location: "Gujarat", title: "Saving My Grape Vineyard", duration: "4:20" },
-  { id: 3, name: "Mohammad Ali", location: "Karnataka", title: "Cotton Farming Revolution", duration: "5:10" }
+  { id: 1, name: "Ravi Shankar", location: "Tamil Nadu", title: "From Chemicals to Organic Success", duration: "3:45", src: "wpMOZ20Tebk" },
+  { id: 2, name: "Priya Patel", location: "Gujarat", title: "Saving My Grape Vineyard", duration: "4:20", src: "wpMOZ20Tebk" },
+  { id: 3, name: "Mohammad Ali", location: "Karnataka", title: "Cotton Farming Revolution", duration: "5:10", src: "wpMOZ20Tebk" }
 ];
 
 const stats = [
@@ -22,15 +25,17 @@ const stats = [
 
 const Testimonials = () => {
   const [activeCategory, setActiveCategory] = useState("All");
+  const [activeVideo, setActiveVideo] = useState(null);
 
-  const filteredTestimonials = activeCategory === "All" 
-    ? testimonialsData 
+
+  const filteredTestimonials = activeCategory === "All"
+    ? testimonialsData
     : testimonialsData.filter(t => {
-        if (activeCategory === "Farmers") return t.crop.includes("Farmer");
-        if (activeCategory === "Organic Growers") return t.crop.includes("Organic");
-        if (activeCategory === "Large Scale") return t.crop.includes("Orchardist") || t.crop.includes("Owner");
-        return true;
-      });
+      if (activeCategory === "Farmers") return t.crop.includes("Farmer");
+      if (activeCategory === "Organic Growers") return t.crop.includes("Organic");
+      if (activeCategory === "Large Scale") return t.crop.includes("Orchardist") || t.crop.includes("Owner");
+      return true;
+    });
 
   return (
     <div>
@@ -49,7 +54,7 @@ const Testimonials = () => {
             <p className="text-xl text-primary-foreground/90 mb-8">
               Hear directly from farmers who transformed their crops with our organic solutions.
             </p>
-            
+
             {/* Featured Testimonial */}
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-3xl p-8 text-left">
               <div className="flex items-start gap-4">
@@ -116,34 +121,89 @@ const Testimonials = () => {
       <section className="section-padding bg-muted/50">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Watch Their Stories</h2>
-            <p className="text-muted-foreground">Video testimonials from farmers across India</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Watch Their Stories
+            </h2>
+            <p className="text-muted-foreground">
+              Video testimonials from farmers across India
+            </p>
           </div>
+
           <div className="grid md:grid-cols-3 gap-6">
             {videoTestimonials.map((video) => (
-              <div key={video.id} className="card-organic overflow-hidden group cursor-pointer">
-                <div className="relative aspect-video bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                  <div className="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center group-hover:scale-110 transition-transform">
-                    <Play className="w-8 h-8 text-primary-foreground ml-1" />
+              <div
+                key={video.id}
+                className="card-organic overflow-hidden group cursor-pointer"
+                onClick={() => setActiveVideo(video.src)}
+              >
+                {/* Thumbnail container */}
+                <div className="relative aspect-video overflow-hidden">
+                  {/* YouTube thumbnail */}
+                  <img
+                    src={`https://img.youtube.com/vi/${video.src}/hqdefault.jpg`}
+                    alt={video.title}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+
+                  {/* Dark overlay */}
+                  <div className="absolute inset-0 bg-black/30" />
+
+                  {/* Play button */}
+                  <div className="relative z-10 flex items-center justify-center h-full">
+                    <div className="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <Play className="w-8 h-8 text-primary-foreground ml-1" />
+                    </div>
                   </div>
-                  <span className="absolute bottom-3 right-3 bg-black/70 text-white text-xs px-2 py-1 rounded">
+
+                  {/* Duration badge */}
+                  <span className="absolute bottom-3 right-3 bg-black/70 text-white text-xs px-2 py-1 rounded z-10">
                     {video.duration}
                   </span>
                 </div>
+
+                {/* Card text (unchanged) */}
                 <div className="p-4">
                   <h4 className="font-semibold mb-1">{video.title}</h4>
-                  <p className="text-sm text-muted-foreground">{video.name} • {video.location}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {video.name} • {video.location}
+                  </p>
                 </div>
               </div>
             ))}
           </div>
+
           <p className="text-center text-muted-foreground mt-8 text-sm">
             Video testimonials coming soon. Check back for inspiring farmer stories!
           </p>
         </div>
+
+        {/* Video Modal */}
+        {activeVideo && (
+          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+            <div className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden">
+              <button
+                className="absolute top-3 right-3 text-white text-2xl z-10"
+                onClick={() => setActiveVideo(null)}
+              >
+                ✕
+              </button>
+
+              <iframe
+                className="w-full h-full"
+                src={`https://www.youtube.com/embed/${activeVideo}?autoplay=1`}
+                title="Video Testimonial"
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        )}
       </section>
 
-      {/* CTA Section */}
+
+
+      { }
       <section className="section-padding container-custom text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Share Your Success Story</h2>
         <p className="text-muted-foreground mb-8 max-w-xl mx-auto">

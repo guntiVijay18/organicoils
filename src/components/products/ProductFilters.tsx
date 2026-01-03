@@ -20,9 +20,9 @@ interface FiltersProps {
 }
 
 const filterOptions = {
-  crops: ["Rice", "Cotton", "Maize", "Vegetables", "Fruits", "Cereals", "Pulses", "Ornamentals"],
+  crops: [ "Cotton", "Maize", "Vegetables", "Fruits", "Cereals", "Pulses", "Ornamentals"],
   problems: ["Pests", "Fungus", "Growth", "Leaf Issues", "Fruit Issues", "Root Problems"],
-  application: ["Spray", "Drip", "Mix"],
+  application: ["mix", "Drip"],
 };
 
 const FilterSection = ({

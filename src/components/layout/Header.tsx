@@ -22,14 +22,14 @@ const Header = () => {
     {
       name: "Products",
       path: "/products",
-      dropdown: [
+      /*dropdown: [
         { name: "All Products", path: "/products" },
         { name: "By Crop", path: "/products?filter=crop" },
         { name: "By Problem", path: "/products?filter=problem" },
-      ],
+      ],*/
     },
     { name: "Crop Issues", path: "/crop-issues" },
-    { name: "Crop Solver", path: "/crop-solver", highlight: true },
+    { name: "Crop Solver", path: "/crop-solver" },
     { name: "How It Works", path: "/how-it-works" },
     { name: "Testimonials", path: "/testimonials" },
     { name: "Gallery", path: "/gallery" },
@@ -42,13 +42,15 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <Leaf className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold text-primary hidden sm:block">
-              Agro<span className="text-leaf-green">Organics</span>
-            </span>
+            <img
+              src="https://drive.google.com/thumbnail?id=1bJZpko328yLTqnvVzOVPGqW4Z28_a0tk&sz=w500"
+              alt="Organics Logo"
+              className="h-16 sm:h-30 w-auto block"
+              loading="eager"
+              referrerPolicy="no-referrer"
+            />
           </Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">

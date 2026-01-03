@@ -147,7 +147,7 @@ const CropIssueDetail = () => {
         </Accordion>
       </div>
 
-      {/* Usage Guidance Table */}
+      {/* Usage Guidance Table 
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-6">Treatment Guide</h2>
         <div className="overflow-x-auto">
@@ -177,6 +177,7 @@ const CropIssueDetail = () => {
           </table>
         </div>
       </div>
+      */}
 
       {/* Recommended Products */}
       <div className="mb-12">

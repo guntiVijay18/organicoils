@@ -39,7 +39,7 @@ const Footer = () => {
                 <Leaf className="w-6 h-6 text-forest-dark" />
               </div>
               <span className="text-xl font-bold">
-                Agro<span className="text-accent">Organics</span>
+                Nikhita <span className="text-accent">Kisan</span>
               </span>
             </Link>
             <p className="text-cream-white/70 text-sm mb-6 leading-relaxed">
@@ -100,20 +100,20 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                 <span className="text-cream-white/70 text-sm">
-                  123 Green Valley Road,<br />
-                  Agricultural Zone, India
+                  Nutan Kal Road, Bandamadaram (Village),
+                   Medchal (Mandal), Medchal (District), Hyderabad-501401
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent shrink-0" />
                 <a href="tel:+919876543210" className="text-cream-white/70 hover:text-accent transition-colors text-sm">
-                  +91 98765 43210
+                  +91 9848236111, 9848236222, 9052023444, 9948032555, 9010965666, 9581566777
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent shrink-0" />
                 <a href="mailto:info@agroorganics.com" className="text-cream-white/70 hover:text-accent transition-colors text-sm">
-                  info@agroorganics.com
+                  NikhitaKisanSevaKendra@organics.com
                 </a>
               </li>
             </ul>
