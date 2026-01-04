@@ -11,13 +11,13 @@
       "Rust",
       "Leaf Spot",
       "Blight",
-      "Downy Mildew"
+      "Pest Infestation"
     ],
     "suitableCrops": [
       "Grapes",
       "Tomatoes",
       "Cucumbers",
-      "Roses",
+      "Rice",
       "Vegetables"
     ],
     "applicationType": "spray",
@@ -38,7 +38,7 @@
     "featured": false
   },
   {
-    "id": "16",
+    "id": "55",
     "name": "Growell Plant Protector",
     "shortDescription": "Natural plant growth and protection solution",
     "description": "Growell Plant Protector is a natural formulation designed to promote healthy plant growth while protecting crops from stress and nutrient deficiencies. It supports strong roots, better vegetative growth, and overall plant vigor.",
@@ -46,16 +46,18 @@
     "category": "growth",
     "problemsSolved": [
       "Stunted Growth",
+      "Poor Crop Health",
+      "Crop Stress",
       "Weak Plant Development",
       "Poor Root Growth",
-      "Nutrient Deficiency"
+      "Pest Infestation"
     ],
     "suitableCrops": [
-      "Vegetables",
+      "Rice",
       "Fruits",
       "Cereals",
       "Pulses",
-      "Ornamental Plants"
+      "Ornamental"
     ],
     "applicationType": "spray",
     "dosage": "2–3 ml per liter of water",
@@ -89,10 +91,9 @@
     ],
     "suitableCrops": [
       "Vegetables",
-      "Fruits",
       "Pulses",
       "Cereals",
-      "Ornamental Plants"
+      "Ornamental"
     ],
     "applicationType": "spray",
     "dosage": "3–5 ml per liter of water",
@@ -614,7 +615,7 @@
   "category": "plant-protection",
 
   "problemsSolved": [
-    "Pest Infestation",
+    
     "Crop Stress",
     "Plant Damage"
   ],
@@ -622,10 +623,11 @@
   "suitableCrops": [
     "Vegetables",
     "Spices",
-    "Field Crops"
+    "Field Crops",
+    "Rice"
   ],
 
-  "applicationType": "spray",
+  "applicationType": "mix",
   "dosage": "As recommended",
   "frequency": "As required",
 

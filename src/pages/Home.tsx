@@ -221,7 +221,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Products 
+      {/* Featured Products */}
       <section
         ref={productsSection.ref}
         className="section-padding bg-background"
@@ -250,7 +250,6 @@ const Home = () => {
         </div>
       </section>
       
-      */}
 
       {/* How It Works */}
       <section

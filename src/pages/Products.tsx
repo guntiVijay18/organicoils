@@ -41,6 +41,16 @@ const Products = () => {
     "Root Problems": ["root", "rot", "soil"],
   };
 
+  /*const problemKeywords: Record<string, string[]> = {
+    Pests: ["pest", "aphid", "whitefl", "mite", "caterpillar", "borer", "beetle"],
+    Fungus: ["fungal", "mildew", "rust", "blight", "rot", "powdery"],
+    Growth: ["growth", "stunted", "weak", "nutrient"],
+    LeafIssues: ["leaf", "curl", "yellow", "necrosis", "chlorosis"],
+    FruitIssues: ["fruit", "drop", "fall", "size", "ripening"],
+    RootProblems: ["root", "rot", "soil"],
+  };*/
+
+
   const filteredProducts = useMemo(() => {
     let result = [...productsData];
 

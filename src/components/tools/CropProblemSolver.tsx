@@ -119,7 +119,7 @@ const CropProblemSolver = ({ compact = false }: CropProblemSolverProps) => {
         </div>
       )}
 
-      {/* Step 2: Select Problem */}
+      {/* Step 2: Select Problem */} 
       {step === 2 && (
         <div className="animate-fade-in">
           <div className="flex items-center gap-2 mb-4">
